@@ -1,0 +1,30 @@
+{
+  "name": "round-half-up-symmetric",
+  "version": "1.0.0",
+  "description": "symmetric half-up rounding for javascript",
+  "main": "dist/round.cjs.js",
+  "module": "dist/round.esm.js",
+  "scripts": {
+    "build": "npm-run-all -p build:*",
+    "build:cjs": "rollup index.js --file dist/round.cjs.js --format cjs",
+    "build:esm": "rollup index.js --file dist/round.esm.js --format esm",
+    "prepublishOnly": "npm run build",
+    "test": "tap --node-arg='--require=esm' test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinstein/round-half-up-symmetric.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mreinstein/round-half-up-symmetric/issues"
+  },
+  "homepage": "https://github.com/mreinstein/round-half-up-symmetric#readme",
+  "devDependencies": {
+    "esm": "^3.0.84",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.1.0",
+    "tap": "^12.1.1"
+  }
+}
