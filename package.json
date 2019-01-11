@@ -33,7 +33,7 @@
     "num",
     "decimal",
     "math",
-    "round"
+    "round",
     "half-up",
     "symmetric"
   ]
