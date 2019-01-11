@@ -18,7 +18,6 @@ round(-20.4)   // -20
 
 That's what this module accomplishes. There are a bunch of modules in npm for rounding but I couldn't find any that satisfied all of these criteria:
 * avoids costly error checking on input values
-* works in all versions of javascript
 * has no dependencies
 * has tests
 * is < 10 lines
