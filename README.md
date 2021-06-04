@@ -21,27 +21,15 @@ That's what this module accomplishes. There are a bunch of modules in npm for ro
 * has no dependencies
 * has tests
 * is < 10 lines
-* works with both es modules and commonjs
+* pure es module
 
 
 ## usage
 
-include the library via es modules:
-
 ```javascript
 import round from 'round-half-up-symmetric'
-```
 
-or via commonjs (node)::
 
-```javascript
-const round = require('round-half-up-symmetric')
-
-```
-
-Then round decimals to your heart's content:
-
-```javascript
 const result = round(-3.5)  // -4
 ```
 
