@@ -1,6 +1,7 @@
 # round-half-up-symmetric
 
-[![Build Status](https://travis-ci.org/mreinstein/round-half-up-symmetric.svg?branch=master)](https://travis-ci.org/mreinstein/round-half-up-symmetric)
+![tests](https://github.com/mreinstein/round-half-up-symmetric/actions/workflows/main.yml/badge.svg)
+
 
 Javascript's `Math.round()` has some unexpected behavior when rounding negative numbers, in that it rounds torwards +∞:
 
